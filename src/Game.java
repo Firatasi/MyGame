@@ -11,5 +11,6 @@ public class Game {
         System.out.println(player.getName() + " Hoşgeldiniz! ");
         System.out.println("Oyuna başlamak için bir karakter seçiniz! ");
         player.selectChar();
+        player.selectLoc();
     }
 }
