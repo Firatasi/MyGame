@@ -3,4 +3,7 @@ public class Knight extends GameChar{
         super(3,"Şovalye", 8,24,5);
 
     }
+
+
+
 }
