@@ -19,6 +19,7 @@ public class Game {
             System.out.println("Bölgeler");
             System.out.println("1-Güvenli ev");
             System.out.println("2-Mağaza");
+            System.out.println("3-Mağra");
             System.out.print("Lütfen gitmek istediğiniz bölgeyi seçiniz: ");
             int selectLoc = input.nextInt();
 
