@@ -28,6 +28,23 @@ public class BattleLoc extends Location{
         }
         return true;
     }
+
+    public boolean combat(int maxMonster) {
+        for (int i = 1; i <= maxMonster; i++) {
+            playerStats();
+        }
+
+
+
+        return false;
+    }
+
+    public void playerStats() {
+        System.out.println("Karakter Bilgileri: ");
+        System.out.println("Sağlık->" + this.getPlayer().getHealth());
+        System.out.println("Hasar->" + this.getPlayer().getDamage());
+        System.out.println("Para->" + this.getPlayer().getMoney());
+    }
     public int randomMonsterNumber() {
         Random rnd = new Random();
         return rnd.nextInt(3) + 1;
